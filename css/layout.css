@@ -1,0 +1,84 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+}
+footer {
+}
+/*
+ * 內容
+ * --------------------------------------------------
+ */
+ .modal-body {
+    position: relative;
+    padding: 15px;
+    clear: both;
+    overflow: hidden;
+}
+.big-brother {  
+    float: left;
+    width: 33%;
+    margin-bottom: 11px;
+}
+.brother-name{
+    color: #337ab7;
+    font-weight: 900;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 7px;
+}
+.big-brother ul{
+    list-style-type: none;
+}
+.big-brother ul li{
+
+}
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
