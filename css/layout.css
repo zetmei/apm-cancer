@@ -14,6 +14,10 @@ footer {
  * 內容
  * --------------------------------------------------
  */
+ .bg{
+  width: 100%;
+ }
+
  .modal-body {
     position: relative;
     padding: 15px;
